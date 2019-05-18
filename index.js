@@ -13,9 +13,6 @@ const shortFile = "lyhyt.mp3";
 const longFile = "pitka.mp3";
 const breakFile = "break.mp3";
 
-const sounds = [shortFile, longFile];
-
-
 
 bot.on('/reverse', (msg) => {
     console.log(msg);

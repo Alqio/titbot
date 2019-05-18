@@ -1,4 +1,4 @@
-Add a config.json file like this to the same folder:
+Add a config.js file like this to the same folder:
 
 ```
 var config = {};

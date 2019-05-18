@@ -51,7 +51,7 @@ bot.on('/tsirp', (msg) => {
 
     console.log(msg);
 
-    const text = msg.text.replace('/morse ', '')
+    const text = msg.text.replace('/tsirp ', '')
     const encoded = morse.encode(text);
 
     const files = generateArray(encoded);
